@@ -1564,6 +1564,11 @@ body{
         /* transform: translateY(-2px); */
         margin-bottom: 9px;
     }
+    #desktop .footer-1{
+        max-width: 1680px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 /* ================================================================================================================================================================================= */
 /* 1880px */
@@ -1588,6 +1593,11 @@ body{
         margin-right: auto;
         width: auto;
     }
+
+    #desktop .cards-div-2 {
+        width: 88.5vw !important;
+       
+    }
     /* -------------------------------------------------------------------------------------------------------------------------------------- */
     /*Footer*/
     #desktop .footer-1 .about, #desktop .footer-1 .help,#desktop .footer-1 .policy, #desktop .footer-1 .social{
@@ -1598,6 +1608,37 @@ body{
     /* margin-top: 41px; */
     margin-top: 40px;
     padding-bottom: 24px;
+    }
+   
+}
+
+
+@media screen and (min-width: 1722px){
+    #desktop .cards-div-2 {
+        width: 95vw;
+       
+    }
+}
+@media screen and (min-width: 1949px){
+    #desktop .cards-div .cards {
+        
+    }
+    #desktop .cards-div {
+        /* width: 61.125vw; */
+        /* width: 1680px !important; */
+        width: 85%;
+    }
+    #desktop .cards-div-2 {
+        /* width: 85vw !important ; */
+        width: 100% !important;
+    }
+    #desktop .footer-1{
+        max-width: 1680px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #desktop .card-div-main-continer {
+        /* width: 1680px !important; */
     }
 }
 
